@@ -14,5 +14,5 @@ function convertUrl(txt){
 function translate(){
     var finalUrl = convertUrl(inputText.value)
 
-    fetch(finalUrl).then(Response => Response.json()).then(json => {outputText.innerText = json.contents.translated}).catch((err)=>{console.log(err)})
+    fetch(finalUrl).then(response => response.json()).then(json => {outputText.innerText = json.contents.translated}).catch((err)=>{console.log(err)})
 }
