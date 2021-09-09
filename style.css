@@ -40,6 +40,10 @@ main{
     padding: 3rem 0;
 }
 
+main h3{
+    color: white;
+}
+
 /* Input Box  */
 .input-box{
     margin: 2rem 0;
